@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url(fonts/Ubuntu.ttf);
+}
+
+.login-page {
+  width: 420px;
+  padding: 10px 0 0;
+  margin: auto;
+}
+
+.login-page .message {
+  margin: 15px 0 0;
+  color: #000000;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 28px;
+}
+
+.box {
+  position: relative;
+  background: rgb(209, 129, 129);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 33px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 25px 0 rgba(0, 0, 0, 0.24);
+}
+
+.box .message {
+  margin: 15px 0 0;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 24px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.download {
+  background: #4CAF50;
+}
+
+.download:hover, .download:active, .download:focus {
+  background: #43A047;
+}
+
+.close {
+  background: #e57373;
+}
+
+.close:hover, .close:active, .close:focus {
+  background: #ef5350;
+}
+
+body {
+  background: #8DC26F;
+}
+
+h1 {
+  margin: 25px 0;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 28px;
+  text-align: center;
+}
+
+p {
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-align: center;
+}
+
+span {
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 40%;
+  border: 0;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 25px 10px;
+}
