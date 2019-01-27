@@ -1,4 +1,4 @@
-# Eczema Detector
+# Eczema Detector Desktop
 Desktop applications of [Eczema Detector](https://github.com/EczemaDetector/Application) created using Electron.
 
 ## Installation
